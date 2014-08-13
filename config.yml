@@ -1,0 +1,16 @@
+#Style for the current server in /server {CURRENTSERVER} is the current server
+currentserver: '&6You are currently connected to: {CURRENTSERVER}'
+#Style for the server list in /server {SERVERLIST} is the list of servers
+serverlist: '&6You may connect to the following servers at this time: {SERVERLIST}'
+#Style for the commas in the serverlist of /server {SERVERLIST}
+commacolor: '&6, '
+#The message before /glist is executed (put none for none)
+beforeglist: 'none'
+#The styling of /glist {SERVERNAME} for the servers name, {SERVERCOUNT} for the players online of that server, {PLAYERLIST} for the list of players
+gliststyle: '&a[{SERVERNAME}] &e({SERVERCOUNT}): &r{PLAYERLIST}'
+#The message before totalonline is sent to the player (put none for none)
+beforetotal: 'none'
+#The styling of the total players online message after /glist, {TOTAL} for the number
+totalonline: '&fTotal players online: {TOTAL}'
+#The message after totalonline is sent to the player (put none for none)
+aftertotal: 'none'
