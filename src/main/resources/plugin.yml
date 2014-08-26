@@ -1,6 +1,6 @@
 name: BukkitBungee
 main: me.pvmac2194.bukkitbungee.BukkitBungee
-version: 1.0
+version: 1.1
 author: pvmac2194
 description: Bungeecord Utilities on Bukkit.
 commands:
@@ -11,5 +11,12 @@ commands:
   bbreload:
     description: Reloads the configuration.
 permissions:
+  bukkitbungee.server:
+    default: true
+    description: Displays the current servers available.
+  bukkitbungee.glist:
+    default: true
+    description: Displays a current playerlist.
   bukkitbungee.reload:
+    default: op
     description: Reloads the configuration.

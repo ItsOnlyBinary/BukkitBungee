@@ -14,3 +14,5 @@ beforetotal: 'none'
 totalonline: '&fTotal players online: {TOTAL}'
 #The message after totalonline is sent to the player (put none for none)
 aftertotal: 'none'
+#Permission Denied
+noperms: '&4You do not have permission to use this command'
